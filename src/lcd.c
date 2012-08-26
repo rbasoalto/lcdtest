@@ -3,14 +3,14 @@
 
 /**************************
  * LCD CONNECTIONS
- * D4 - D7 -> P1.0 - P1.3
- * EN -> P1.4
- * RS -> P1.5
+ * D4 - D7 -> P2.0 - P2.3
+ * EN -> P2.4
+ * RS -> P2.5
  **************************/
 
-#define LCD_PIN P1IN
-#define LCD_POUT P1OUT
-#define LCD_PDIR P1DIR
+#define LCD_PIN P2IN
+#define LCD_POUT P2OUT
+#define LCD_PDIR P2DIR
 
 #define LCD_SHIFT 0 // LCD pins D4-D7 start on bit LCD_SHIFT of LCD_PIN/POUT
 #define LCD_EN BIT4
